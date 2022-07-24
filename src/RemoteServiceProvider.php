@@ -2,9 +2,9 @@
 
 namespace Sosupp\Remote;
 
+use Sosupp\Remote\Commands\RemoteCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Sosupp\Remote\Commands\RemoteCommand;
 
 class RemoteServiceProvider extends PackageServiceProvider
 {
